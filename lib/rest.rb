@@ -1,6 +1,6 @@
 class Rest
-  def self.get(url: url, options: options, headers: headers)
-    HTTParty.get(url, query: options, basic_auth: headers)
+  def self.get(url: url, options: options)
+    HTTParty.get(url, query: options)
   end
 end
 
